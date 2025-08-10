@@ -17,4 +17,4 @@ if (edad < 18){
 
 // parseInt , significa que pasas de un string (texto) a numero 
 
-// || significa o (o) se puede usar como edad <=18 ||(o) edad edad >= 60
+// || significa o (o) se puede usar como edad <=18 ||(o) edad edad >= 60s
