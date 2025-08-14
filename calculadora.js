@@ -34,7 +34,7 @@ while(continuar){
     else {
         resultado = "operacion invalida"
     }
-    
+
 
 
 console.log(`el resultado es ${resultado}`)
