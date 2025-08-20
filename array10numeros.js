@@ -20,10 +20,25 @@ console.log(total);
 
 //El promedio
 
-let datosNN = [4,3,2,0];
-let total2;
-
-for (let i = 0; i < datosNN.length; i++){
-    total2 = datosNN[i] / datosNN.length;
+function promedio(notas) {
+  sumatotal = 0;
+  for (let i = 0; i < notas.length; i++) {
+    sumatotal += notas[i];
+  }
+  return sumatotal / notas.length;
 }
-console.log(total2)
+
+//console.log(promedio([10]));
+
+let promedioNotas = promedio([10,2,3,4])
+
+console.log(promedioNotas)
+
+
+if (promedioNotas >= 6){
+  console.log(`estas aprobado con ${promedioNotas}`)
+
+}
+else {
+    console.log(`estas desaprobado con ${promedioNotas}`)
+}
