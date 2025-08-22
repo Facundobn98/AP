@@ -28,8 +28,6 @@ function promedio(notas) {
   return sumatotal / notas.length;
 }
 
-//console.log(promedio([10]));
-
 let promedioNotas = promedio([10,2,3,4])
 
 console.log(promedioNotas)
